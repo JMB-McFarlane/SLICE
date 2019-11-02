@@ -1,0 +1,28 @@
+#/bin/bash
+#PBS -S /bin/bash
+# Script for running Amber 16 pmemd.MPI (Open MPI) on Prometheus
+
+INPUT=heat.in
+PARM=pep.top
+INPCRD=min.rst
+RESTRT=heat.rst
+
+AMBERHOME=/storage/apps/amber16
+. $AMBERHOME/amber.sh
+
+cd $PBS_O_WORKDIR
+echo "Current working directory is `pwd`"
+
+CORES=`/bin/awk 'END {print NR}' $PBS_NODEFILE`
+echo "Running on $CORES cores."
+
+echo "PBS node file location: $PBS_NODEFILE"
+echo "------------------"
+cat $PBS_NODEFILE
+echo "------------------"
+
+echo "Starting run at: `date`"
+module purge
+module load amber/16
+mpiexec -n $CORES pmemd.MPI -O -i $INPUT -p $PARM -c $INPCRD -r $RESTRT 
+echo "Finished run at: `date`"

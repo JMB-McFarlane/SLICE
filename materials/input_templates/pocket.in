@@ -1,0 +1,4 @@
+parm pep.top
+trajin mdcrd
+distance :155 :4GA out pocket_dist.dat
+run

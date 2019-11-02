@@ -1,0 +1,5 @@
+parm pep.top
+trajin mdcrd
+mask :1-370 maskpdb OUT.pdb
+
+

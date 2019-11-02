@@ -1,0 +1,85 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+source leaprc.GLYCAM_06j-1 
+
+/storage/home/jmbm87/cbx_validation/lib/res_lib
+
+loadoff /storage/home/jmbm87/AMBER_res_lib/CSA-2.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/FLO-5.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/KM3-2.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/P4.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/P3.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/BRO.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/ETH.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/OBP.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/CPA.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/MBP.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/TBU/TBU.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/SEM/SEM.dat
+
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N77/N77.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N78/N78.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N79/N79.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N82/N82.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N87/N87.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N93/N93.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N95/N95.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N75/N75.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N85/N85.dat
+
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I51/I51.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I52/I52.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I53/I53.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I54/I54.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I57/I57.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I65/I65.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I67/I67.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I59/I59.dat
+
+loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/NSW/NSW.dat
+
+loadoff /storage/home/jmbm87/AMBER_res_lib/CTY.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/DEL.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/MIX.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/3HG.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/ISR.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/BTE.dat
+
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/3HG.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/CTY.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/MIX3.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/DEL.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/MBP.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/OBP.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/CPA.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/bro.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/ethyl.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/BTE.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/ISR.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/TBU/TBU.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/SEM/SEM.frcmod
+
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N77/N77.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N78/N78.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N79/N79.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N82/N82.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N87/N87.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N93/N93.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N95/N95.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N75/N75.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N85/N85.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I51/I51.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I52/I52.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I53/I53.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I54/I54.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I57/I57.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I65/I65.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I67/I67.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I59/I59.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/NSW/NSW.frcmod
+
+
+
+loadamberparams frcmod.ionsjc_tip3p
+set default pbradii mbondi2
+

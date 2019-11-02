@@ -1,0 +1,3 @@
+parm pep.top
+trajin mdcrd
+distance :45 :341 out dist.txt

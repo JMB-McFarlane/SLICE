@@ -1,0 +1,62 @@
+source build.scr 
+
+pose1 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_13
+addions pose1 Na+ 0
+addions pose1 Cl- 0
+solvatebox pose1 TIP3PBOX 14
+saveamberparm pose1 pose1.top pose1.crd 
+
+pose2 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_14
+addions pose2 Na+ 0
+addions pose2 Cl- 0
+solvatebox pose2 TIP3PBOX 14
+saveamberparm pose2 pose2.top pose2.crd 
+
+pose3 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_18
+addions pose3 Na+ 0
+addions pose3 Cl- 0
+solvatebox pose3 TIP3PBOX 14
+saveamberparm pose3 pose3.top pose3.crd 
+
+pose4 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_17
+addions pose4 Na+ 0
+addions pose4 Cl- 0
+solvatebox pose4 TIP3PBOX 14
+saveamberparm pose4 pose4.top pose4.crd 
+
+pose5 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/8/PROD/pose0_MBP_1
+addions pose5 Na+ 0
+addions pose5 Cl- 0
+solvatebox pose5 TIP3PBOX 14
+saveamberparm pose5 pose5.top pose5.crd 
+
+pose6 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_2
+addions pose6 Na+ 0
+addions pose6 Cl- 0
+solvatebox pose6 TIP3PBOX 14
+saveamberparm pose6 pose6.top pose6.crd 
+
+pose7 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_7
+addions pose7 Na+ 0
+addions pose7 Cl- 0
+solvatebox pose7 TIP3PBOX 14
+saveamberparm pose7 pose7.top pose7.crd 
+
+pose8 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_6
+addions pose8 Na+ 0
+addions pose8 Cl- 0
+solvatebox pose8 TIP3PBOX 14
+saveamberparm pose8 pose8.top pose8.crd 
+
+pose9 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_5
+addions pose9 Na+ 0
+addions pose9 Cl- 0
+solvatebox pose9 TIP3PBOX 14
+saveamberparm pose9 pose9.top pose9.crd 
+
+pose10 = loadpdb /storage/home/jmbm87/SLICE_validation/system1/SLICE_6/9/PROD/pose0_MBP_4
+addions pose10 Na+ 0
+addions pose10 Cl- 0
+solvatebox pose10 TIP3PBOX 14
+saveamberparm pose10 pose10.top pose10.crd 
+

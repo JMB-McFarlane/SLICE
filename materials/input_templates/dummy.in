@@ -1,0 +1,4 @@
+parm /storage/home/jmbm87/SLICE_validation/system1/SLICE_10/10/PROD/pep.top
+trajin /storage/home/jmbm87/SLICE_validation/system1/SLICE_10/10/PROD/mdcrd
+distance :155 :4GA out /storage/home/jmbm87/SLICE_validation/system1/distances/10_10_ligdist.dat
+run

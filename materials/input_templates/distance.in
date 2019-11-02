@@ -1,0 +1,3 @@
+parm pose1.top
+trajin pose1.crd
+distance :45 :341 out test.txt
