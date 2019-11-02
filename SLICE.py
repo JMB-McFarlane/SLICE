@@ -42,8 +42,6 @@ def cfg(a,b):                   #config file getter
 
 
 def main(ligand,receptor):
-    beep = lambda x: os.system("echo -n '\a';sleep 0.2;" * x)
-    beep(3)
     print_config.print_configuration(config,ligand,receptor) # Prints out configuration info, inputs, and a good sword
 
 #prestep1. Initialize directories method
