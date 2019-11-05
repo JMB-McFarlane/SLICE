@@ -1,3 +1,6 @@
+# pycharm project config
+.idea
+
 # the test folder where runs go
 test_directory
 
