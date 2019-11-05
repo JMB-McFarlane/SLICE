@@ -17,11 +17,10 @@ import time
 
 
 # Appends path to SLICE utilities
-sys.path.append("/storage/home/jmbm87/SLICE_dev/utils")
 
 # Utilty files
-import print_config #Printing and status update functions
-import maker_scripts as ms # Contains the pdb and md file makers and parsers
+from utils import print_config #Printing and status update functions
+from utils import maker_scripts as ms # Contains the pdb and md file makers and parsers
 
 
 # Parses arguments for executing SLICE
