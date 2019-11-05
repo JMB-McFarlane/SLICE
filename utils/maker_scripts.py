@@ -45,3 +45,9 @@ def make_crd_tops():
 def submit_MD():
     print("Running MD Simulations | ")
     sys.stdout.flush()
+
+
+#returns last save state for a file
+def check_file_status(filename):
+        fileinfo = str(os.stat(filename))
+        return fileinfo.split("st_ctime=")[1].split(")")[0]

@@ -75,7 +75,7 @@ def main(ligand,receptor):
     #submit heat jobs (if heat flag = true);wait()
     #submit equil jobs (if equil flag = true);wait()
     #submit production jobs (if prod flag = true);wait()
-        
+    #monitor production jobs. If new frame printed in output for mdcrd, md->pdb->pdbqt->dock->wait_for_docl->parse_and_append_results 
 
 if __name__ == "__main__":
     main(args.L,args.R)
