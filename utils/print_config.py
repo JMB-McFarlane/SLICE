@@ -22,3 +22,13 @@ def print_configuration(config,ligand_file,receptor_file):
         print("Ligand file:" + ligand_file)
         print("Receptor file:" + receptor_file)
 
+def progress(val, start=0, end=100, maxlen=40, hash='#'):
+    decimal = val / (end - start)
+    progress = decimal * 100
+    if progress < 99.999:
+        num_hash = int(maxlen * decimal)
+        hashes = hash * num_hash + ' ' * (maxlen - num_hash) * len(hash)
+        print('\r|'+'{}'.format(hashes)+'| {:.1f}%'.format(progress), end='', flush=True)
+    else:
+        hashes = hash * maxlen
+        print('\r|'+'{}'.format(hashes)+'| DONE!'.format(progress), end='', flush=True)
