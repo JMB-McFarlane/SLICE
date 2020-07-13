@@ -2,8 +2,8 @@
 #PBS -S /bin/bash
 # Script for running Amber 16 pmemd.MPI (Open MPI) on Prometheus
 
-INPUT=heat.in
-PARM=pep.top
+INPUT=/storage/home/jmbm87/SLICE_dev/materials/input_templates/heat.in
+PARM=pose.top
 INPCRD=min.rst
 RESTRT=heat.rst
 

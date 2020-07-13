@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -S /bin/bash
+# Script for running AutoDock Vina on Prometheus
+
+INPUT=INPUT_FILE
+PARM=TOPOLOGY_FILE
+INPCRD=STARTCRD_FILE
+CONF=CONFIGO
+
+AMBERHOME=/storage/apps/amber16
+. $AMBERHOME/amber.sh
+
+cd $PBS_O_WORKDIR
+echo "Current working directory is `pwd`"
+
+CORES=`/bin/awk 'END {print NR}' $PBS_NODEFILE`
+echo "Running on $CORES cores."
+
+echo "PBS node file location: $PBS_NODEFILE"
+echo "------------------"
+cat $PBS_NODEFILE
+echo "------------------"
+
+echo "Starting run at: `date`"
+/storage/home/jmbm87/bin/autodock_vina_1_1_2_linux_x86/bin/vina --config CONFIG_FILE
+echo "Finished run at: `date`"

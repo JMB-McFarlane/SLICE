@@ -7,12 +7,12 @@ import os
 import sys 
 
 #test path for debugging
-path = "/storage/home/jmbm87/SLICE_dev/materials/pyfiles/test_inps/"
+path = "/storage/home/jmbm87/SLICE_dev/utils/unit_test_files/"
 
 def pdb2pqr(path,pdb,qt,hostqt):
     inp_pdb = open(path + pdb, 'r')
-    inp_qt = open(path + qt,'r')
-    newqt = open(hostqt,'wr')
+    inp_qt = open(qt,'r')
+    newqt = open(path + hostqt,'wr')
 
     lines = []
     
@@ -48,7 +48,7 @@ def pdb2pqr(path,pdb,qt,hostqt):
     for i in range(len(a)):
         lines.append(a[i]+ ' '+ b[i]+ ' '+ c[i]+ ' '+ d[i]+ ' '+ e[i]+ ' ' + x[i]+ ' '+ y[i]+ ' '+ z[i]+ ' ' + f[i] + ' '+ g[i]+ ' '+ h[i]+ ' '+ o[i])
     inp_qt.close()
-    inp_qt = open(path + qt,'r')
+    inp_qt = open(qt,'r')
     i = 0
     #writing new charge file with pdb coordinates 
     for line in inp_qt:
@@ -63,4 +63,3 @@ def pdb2pqr(path,pdb,qt,hostqt):
 def test_pdb2pqr():
     pdb2pqr(path,"OUT.pdb.1","RBP.receptor.pdbqt","newqt_test.pdbqt")
 
-test_pdb2pqr()

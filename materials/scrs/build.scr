@@ -1,7 +1,5 @@
 source oldff/leaprc.ff14SB
 source leaprc.gaff
-source leaprc.GLYCAM_06j-1 
-
 /storage/home/jmbm87/cbx_validation/lib/res_lib
 
 loadoff /storage/home/jmbm87/AMBER_res_lib/CSA-2.dat
@@ -16,6 +14,8 @@ loadoff /storage/home/jmbm87/AMBER_res_lib/CPA.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/MBP.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/TBU/TBU.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/SEM/SEM.dat
+loadoff /storage/home/jmbm87/AMBER_res_lib/slice_test_res/RET/RET.dat
+
 
 loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N77/N77.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/N78/N78.dat
@@ -35,8 +35,6 @@ loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I57/I57.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I65/I65.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I67/I67.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/I59/I59.dat
-
-loadoff /storage/home/jmbm87/AMBER_res_lib/project2_residues/NSW/NSW.dat
 
 loadoff /storage/home/jmbm87/AMBER_res_lib/CTY.dat
 loadoff /storage/home/jmbm87/AMBER_res_lib/DEL.dat
@@ -58,6 +56,8 @@ loadamberparams /storage/home/jmbm87/AMBER_res_lib/BTE.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/ISR.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/TBU/TBU.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/SEM/SEM.frcmod
+loadamberparams /storage/home/jmbm87/AMBER_res_lib/slice_test_res/RET/RET.frcmod
+
 
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N77/N77.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/N78/N78.frcmod
@@ -76,7 +76,7 @@ loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I57/I57.frc
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I65/I65.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I67/I67.frcmod
 loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/I59/I59.frcmod
-loadamberparams /storage/home/jmbm87/AMBER_res_lib/project2_residues/NSW/NSW.frcmod
+
 
 
 
